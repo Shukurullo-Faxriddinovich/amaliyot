@@ -1,0 +1,45 @@
+.hero{
+  padding: 155px;
+  background-image: url("../images/intro-bg.jpg");
+  background-position: calc(50% + 550px) calc(50% - 50px);
+  background-repeat: no-repeat;
+  border-bottom: 3px solid #ddd;
+}
+
+
+
+.hero__user{
+  width: 490px;
+}
+
+.hero__title{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.hero__text{
+  margin: 0;
+  margin-bottom: 42px;
+  padding: 0;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border-left: 3px solid #888888;
+
+}
+
+.hero__link{
+  margin: 0;
+  padding: 12px 38px;
+  background-color:  #EA625C;
+  color:#fff;
+  
+  &:hover{
+    background: #C9514C;
+  }
+}

@@ -1,0 +1,50 @@
+.out{
+  margin-top: 68px;
+}
+
+.out__wrapper{
+  margin-bottom: 70px;
+}
+
+.out__list{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.out__item{
+  width: 280px;  
+}
+
+.out__title{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color:#222222;
+}
+
+.out__text{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color:#333;
+}
+
+.out__sub-user{
+  display: flex;
+}
+.out__span{
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  background-color: #DDDDDD;
+}
